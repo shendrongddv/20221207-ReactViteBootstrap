@@ -6,10 +6,10 @@ const Hero = () => {
     <section id="hero" className="min-vh-100 d-flex align-items-center">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 text-white text-center text-lg-start">
+          <div className="col-lg-8 text-white text-center text-lg-start">
             <h1 className="h6">Copywritting for SEO</h1>
             <h2 className="display-4 fw-bold mt-2 mb-4">
-              This is Copywritting for Marketing Purpouse
+              This is Copywritting for Marketing Purpouse to Attract Customer
             </h2>
             <Link
               to="/"
