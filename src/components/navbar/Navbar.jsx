@@ -56,6 +56,11 @@ const Navbar = () => {
                   Blog
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/404NotFound" className="nav-link">
+                  404
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
