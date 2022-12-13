@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
+
 import "./navbar.css";
+import Logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
       <div className="container">
         <Link to="/" className="navbar-brand">
-          Offcanvas Navbar
+          <img src={Logo} alt="" />
         </Link>
         <button
           className="navbar-toggler"
@@ -18,7 +20,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="offcanvas offcanvas-end"
+          className="offcanvas offcanvas-end bg-dark text-white"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
